@@ -1,0 +1,13 @@
+t = linspace(0,50);
+subplot(2,2,1)
+plot(t,3*t,'r')
+title('3*t')
+subplot(2,2,2)
+plot(t,3*sqrt(t),'c')
+title('3*sqrt(t)')
+subplot(2,2,3)
+plot(t,t/3,'b')
+title('t/3')
+subplot(2,2,4)
+plot(t,3*cos(t),'k')
+title('3cos(t)')
